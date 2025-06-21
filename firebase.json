@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "dist/project--5--login_page",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
+
